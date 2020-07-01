@@ -17,7 +17,11 @@ def assembled_aoh
 end
 
 def literal_aoh
-
+for i in assembled_aoh do 
+  if i
+  i.sort
+end
+end
 end
 
 def aoh_lookup(aoh, row, key)
