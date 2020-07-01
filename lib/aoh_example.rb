@@ -17,7 +17,7 @@ def assembled_aoh
 end
 
 def literal_aoh
- 
+ binding.pry
 end
 
 def aoh_lookup(aoh, row, key)
